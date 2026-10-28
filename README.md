@@ -20,46 +20,35 @@ How to read the status labels used in this repository:
 
 ## 1. The scientific question
 
-Executive theories rely on latent constructs, such as perceived trustworthiness, charisma, confidence
-and authenticity, that are hard to observe repeatedly in natural settings. Video, audio and transcripts
-of executives give rich behavioral traces, but a prediction score alone cannot show what a construct
-captures, whether its apparent behavioral cues are causally consequential, or what systematic structure
-lies beyond its measured scope.
+Latent constructs, such as perceived trustworthiness, charisma, confidence and authenticity, 
+which are hard to observe repeatedly in natural settings. Video, audio and transcripts. We ask: 
+What natural behavior does the construct actually capture? 
+Which parts of that behavioral footprint are causally consequential? 
+Where does the construct’s explanatory reach hold, weaken, or fail? 
+And what stable, outcome-relevant behavioral structure remains outside it? 
+
+We call the boundary revealed by these questions the explanatory frontier of theory.
 
 The **explanatory frontier** is the empirically inspectable boundary of a construct's current behavioral
-and causal explanatory reach. The workflow asks:
-
-1. What information in natural behavior supports a construct's measurement?
-2. Which candidate behavioral cues withstand randomized intervention?
-3. Where are those causal effects stronger, weaker, or absent?
-4. What reproducible, outcome-relevant behavioral structure remains outside the focal *measure* and calls
-   for further theoretical scrutiny?
+and causal explanatory reach. 
 
 Residual structure is **not**, on its own, evidence of a new construct or theory. Interpretation,
 validation and theory development remain researcher-led.
 
 ## 2. Architecture
 
-```mermaid
-flowchart LR
-    A[1. Multimodal behavioral substrate] --> B[2a. Construct measurement and explanation]
-    A --> C[2b. Residualized behavioral profiling]
-    B --> D[3. Controlled counterfactual cue editing]
-    D --> E[4. Randomized causal tests]
-    E --> F[5. Explanatory-frontier diagnosis]
-    C -. Frozen before outcomes .-> F
-    F --> G[Human-led theoretical interpretation and new tests]
-```
+Testbed and Stage of Development 
+       We demonstrate the architecture on CEOs, an unusually demanding and theoretically consequential testbed. Upper-echelons theory rests on latent executive characteristics that are difficult to manipulate and rarely observed repeatedly at scale (Hambrick & Mason, 1984). We have already assembled the empirical infrastructure: 1,276 videos of listed-company CEOs from major public and business-media platforms, processed through a six-stage quality-control pipeline. After verifying face visibility, audio and transcript quality, single-speaker status, and standardized duration, the final corpus contains 1,016 CEO videos. Three trained coders independently audited a random 20% and identified no material quality concerns.
 
-**Confirmatory thread:** theory-defined construct ratings, multimodal measurement, candidate cue
-selection, manipulation checks, randomized assessment of perceived trustworthiness.
+##Architecture flow:
+Step 1: Turn Naturalistic Behavior Traces into Shared Behavioral Substrate 
+Step 2: Theory-Driven Measurement and Residualized Profiling
+Step 2a: Theory-Driven Measurement
+Step 2b: Construct the Theory's Negative Space Before Seeing Causal Outcomes
+Step 3: Use Generative AI to Create Naturalistic Counterfactuals
+Step 4: Force Computational Explanations to Survive Causal Intervention
+Step 5: Diagnose Where the Construct's Explanatory Reach Ends
 
-**Residual-diagnostic thread:** construct-agnostic behavioral representation, out-of-sample
-residualization, leakage checks, stable residual configurations, **freeze before experimental outcomes**,
-exploratory boundary-condition analysis.
-
-The threads are kept apart on purpose. Model attributions are hypotheses about predictive information,
-**not** causal mechanisms; a cue gains causal evidence only through a valid intervention and experiment.
 
 ## 3. Implementation status
 
