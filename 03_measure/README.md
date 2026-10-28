@@ -15,6 +15,8 @@ decides whether that estimate is good enough to be used further (the validity ga
 | `gate.py` | The validity gate: correlation at least half the noise ceiling, and fusion better than the best single modality |
 
 Feature extraction:
-Language	bert-base-uncased (Devlin et al., 2019)	768-d contextual embedding of each token, computed over the full transcript	per token 
-Audio	COVAREP (Degottex et al., 2014)	74 voice-quality and spectral features, including F0 and voicing	10 ms frames
-Visual	OpenFace 3.0 (Hu et al., 2025)	Action-unit intensities and left- and right-eye gaze yaw and pitch from the pinned release; landmarks used for quality control only	per video frame
+Language	bert-base-uncased (Devlin et al., 2019)
+
+Audio	COVAREP (Degottex et al., 2014)	
+
+Visual	OpenFace 3.0 (Hu et al., 2025)	
