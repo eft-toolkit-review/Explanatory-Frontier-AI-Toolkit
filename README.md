@@ -55,7 +55,9 @@ Step 5: Diagnose Where the Construct's Explanatory Reach Ends
 
 
 ## 3. Implementation status
-03_measure: GMFN pilot code and protocol utilities
+01_protocol:
+02_substrate:
+03_measure: GMFN pilot code and prototype
 
 
 
