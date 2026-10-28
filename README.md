@@ -40,7 +40,7 @@ validation and theory development remain researcher-led.
 Testbed and Stage of Development 
        We demonstrate the architecture on CEOs, an unusually demanding and theoretically consequential testbed. Upper-echelons theory rests on latent executive characteristics that are difficult to manipulate and rarely observed repeatedly at scale (Hambrick & Mason, 1984). We have already assembled the empirical infrastructure: 1,276 videos of listed-company CEOs from major public and business-media platforms, processed through a six-stage quality-control pipeline. After verifying face visibility, audio and transcript quality, single-speaker status, and standardized duration, the final corpus contains 1,016 CEO videos. Three trained coders independently audited a random 20% and identified no material quality concerns.
 
-Architecture flow:】
+**Architecture flow:**
 
 Step 1: Turn Naturalistic Behavior Traces into Shared Behavioral Substrate 
 
