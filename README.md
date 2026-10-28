@@ -35,28 +35,39 @@ and causal explanatory reach.
 ## 2. Architecture
 
 Testbed and Stage of Development 
-       We demonstrate the architecture on CEOs, an unusually demanding and theoretically consequential testbed. Upper-echelons theory rests on latent executive characteristics that are difficult to manipulate and rarely observed repeatedly at scale (Hambrick & Mason, 1984). We have already assembled the empirical infrastructure: 1,276 videos of listed-company CEOs from major public and business-media platforms, processed through a six-stage quality-control pipeline. After verifying face visibility, audio and transcript quality, single-speaker status, and standardized duration, the final corpus contains 1,016 CEO videos. Three trained coders independently audited a random 20% and identified no material quality concerns.
+ We demonstrate the architecture on CEOs, an unusually demanding and theoretically consequential testbed. Upper-echelons theory rests on latent executive characteristics that are difficult to manipulate and rarely observed repeatedly at scale (Hambrick & Mason, 1984). We have already assembled the empirical infrastructure: 1,276 videos of listed-company CEOs from major public and business-media platforms, processed through a six-stage quality-control pipeline. After verifying face visibility, audio and transcript quality, single-speaker status, and standardized duration, the final corpus contains 1,016 CEO videos. Three trained coders independently audited a random 20% and identified no material quality concerns.
 
 **Architecture flow:**
 
 Step 1: Turn Naturalistic Behavior Traces into Shared Behavioral Substrate 
 
+
 Step 2: Theory-Driven Measurement and Residualized Profiling
+
 
 Step 2a: Theory-Driven Measurement
 
+
 Step 2b: Construct the Theory's Negative Space Before Seeing Causal Outcomes
+
 
 Step 3: Use Generative AI to Create Naturalistic Counterfactuals
 
+
 Step 4: Force Computational Explanations to Survive Causal Intervention
+
+
 
 Step 5: Diagnose Where the Construct's Explanatory Reach Ends
 
 
+
 ## 3. Implementation status
 01_protocol:
+
 02_substrate:
+
+
 03_measure: GMFN pilot code and prototype
 
 
