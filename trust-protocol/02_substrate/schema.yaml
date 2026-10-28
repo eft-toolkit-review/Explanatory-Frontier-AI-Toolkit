@@ -1,0 +1,19 @@
+# Data interface for the three modality streams and labels (appendix A1, A2.1).
+# Any corpus that follows this layout can be run through 03_measure without code changes.
+# This release ships only synthetic data in this format (demo/make_synthetic.py).
+clips:
+  id: string, random identifier (no names, no source mapping)
+modalities:
+  L: {source: bert-base-uncased sentence-level features, dim: 768, per_step: true}
+  A: {source: acoustic features (COVAREP in the pilot), dim: 74, per_step: true}
+  V: {source: facial features (OpenFace in the pilot), dim: 35, per_step: true}
+sequence:
+  steps: 624              # padded / truncated length in the pilot configuration
+  array_layout: [clips, steps, dim]
+  standardize: training data only (mean and sd from the training set or training folds)
+labels:
+  T: mean of k annotator ratings, 1-7
+  raters: [clips, k]      # annotator-level ratings, needed for ICC(2,k)
+  rivals: [authenticity, competence, warmth, charisma, confidence]   # same scale, planned
+files:
+  format: npz or parquet; one array per modality plus an id column
