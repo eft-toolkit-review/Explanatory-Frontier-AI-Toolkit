@@ -1,12 +1,13 @@
 # Explanatory Frontier AI Toolkit
 
-**An AI-enabled research architecture for measurement, causal testing, and theory development in upper-echelons research**
+**Making the Explanatory Frontier of Upper-Echelons Theory Observable: An AI-Enabled Architecture for Measurement, Causal Discovery, and Theory Expansion**
 
-> **Development-stage research artifact (Stage 1).** This repository documents a proposed scientific
-> workflow and its first prototype: the measurement step for observer-perceived CEO trustworthiness,
-> together with the protocol machinery that fixes every analytic choice before it is used. Modules
-> are at different stages, and each is labelled below. A design description is **not** evidence that
-> a module has been implemented or validated.
+> **Development-stage research artifact (Stage 1).
+> This repository documents a proposed scientific workflow and its first prototype
+> the measurement step for CEO trustworthiness,
+> together with the protocol machinery that fixes every analytic choice before it is used.
+> Modules are at different stages, and each is labelled below.
+> Note: A design description is **not** evidence that a module has been implemented or validated.
 
 How to read the status labels used in this repository:
 
