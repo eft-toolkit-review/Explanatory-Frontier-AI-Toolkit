@@ -32,9 +32,6 @@ We call the boundary revealed by these questions the explanatory frontier of the
 The **explanatory frontier** is the empirically inspectable boundary of a construct's current behavioral
 and causal explanatory reach. 
 
-Residual structure is **not**, on its own, evidence of a new construct or theory. Interpretation,
-validation and theory development remain researcher-led.
-
 ## 2. Architecture
 
 Testbed and Stage of Development 
