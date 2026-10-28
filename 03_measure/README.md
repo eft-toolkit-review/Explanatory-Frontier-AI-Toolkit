@@ -12,7 +12,7 @@ decides whether that estimate is good enough to be used further (the validity ga
 | `train.py` | Training loop and the random hyperparameter search (space of appendix Table A2.1; every configuration is logged) |
 | `splits.py` | Seeded data splits: Mode S (609 / 204 / 203) and Mode K (untouched set + 5-fold cross-fitting) |
 | `metrics.py` | Correlation, MAE, R2, Fisher interval, bootstrap interval, Steiger test, reliability (ICC) |
-| `gate.py` | The validity gate: correlation at least half the noise ceiling, and fusion better than the best single modality |
+| `gate.py` | Measurement validity decision rules |
 
 Feature extraction:
 Language	bert-base-uncased (Devlin et al., 2019)
