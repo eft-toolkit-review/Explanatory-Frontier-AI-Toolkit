@@ -5,7 +5,7 @@ into one estimate of perceived trustworthiness with a **Graph Memory Fusion Netw
 decides whether that estimate is good enough to be used further (the validity gate, appendix A2.4).
 
 | Path | What it is |
-|---|---|---|
+|---|---|
 | `gmfn_pilot_code/` | **The GMFN code from the pilot**: full GMFN, its ablations, and four benchmark models (EF-LSTM, TFN, LMF, MFN). Model files are unchanged apart from anonymized names. See its README |
 | `gmfn.py` | A cleaner re-write of the same GMFN, written so that it runs on CPU and can be tested. Its equivalence with the pilot model is still to be checked weight by weight |
 | `dfg_structure.py` | The wiring of the fusion graph (which vertex feeds which; 19 efficacies = 6 + 6 + 7), with no deep-learning dependency |
