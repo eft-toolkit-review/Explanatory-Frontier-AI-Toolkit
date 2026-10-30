@@ -1,9 +1,4 @@
-"""A1.2 Alignment and standardization (illustrative).
-
-Language is the time axis: one step per token. Audio and visual features, which arrive at their
-own frame rates, are summarized inside each token's time interval, so every modality has one
-vector per token.  Standardization uses training data only.
-"""
+"""A1.2 Alignment and standardization (illustrative). """
 import numpy as np
 
 
