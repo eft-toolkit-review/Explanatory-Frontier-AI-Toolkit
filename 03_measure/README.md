@@ -6,7 +6,7 @@ turning the language, voice and face features of a clip into one estimate of per
 Purpose. Estimate the researcher-defined construct from behavior, out of sample, and show which behavioral information carries the estimate.
 
 ## Files
-labels.py : corresponding to Technical Appendix A2.1 Criterion labels (illustrative code). 
+labels.py : corresponding to Technical Appendix A2.1 Criterion labels (illustrative code).  
 
 splits.py : corresponding to Technical Appendix A2.2 Splits (illustrative code) with two evaluation modes (Mode S as single split and Mode K as K fold split)
 
