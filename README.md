@@ -1,6 +1,4 @@
-# Explanatory Frontier AI Toolkit
-
-**Making the Explanatory Frontier of Upper-Echelons Theory Observable: An AI-Enabled Architecture for Measurement, Causal Discovery, and Theory Expansion**
+**Making Upper Echelons Observable with CEO Video Data: An AI-Enabled Architecture for Measurement, Causal Discovery, and Theory Expansio**
 
 > **Development-stage research artifact (Stage 1).
 > This repository documents a proposed scientific workflow and its first prototype
