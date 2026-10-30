@@ -14,7 +14,7 @@ gmfn_pilot_code ：contains A2.3 model, A2.4 benchmark models(Pilot pipeline cod
 
 gate.py：corresponding to Technical Appendix A2.4 Validity gate (illustrative code). an illustrative decision rule as an example.
 
-metrics.py: a utility module with helper function
+metrics.py: a utility module with helper functions
 
 ## Installation
 Before running the scripts, ensure you have the following dependencies installed:
