@@ -1,22 +1,18 @@
-# 02_substrate: shared behavioral substrate (Step 1, A1.2 and A1.3)
+# 02_substrate: Shared substrate (Step 1, A1.2 and A1.3)
 
-**Purpose.** Turn each video into a time-indexed record of language, voice and face that is built
-without access to the focal construct or to any experimental outcome. It is fixed before the
+**Purpose.** Break each video into a label-free representation for profiling. It is fixed before the
 construct-specific analyses and reused in all later steps.
 
 ## Files
 
-`schema.yaml` : the data interface (A1.2). Which streams, dimensions and labels a feature file holds.
-Any corpus that follows this layout can be passed through `03_measure`.
+schema.yaml : the data interface (A1.2). Which streams, dimensions and labels a feature file holds.
 
-`align.py` : corresponding to Technical Appendix A1.2 Features and alignment (illustrative code).
+align.py : corresponding to Technical Appendix A1.2 Features and alignment (illustrative code).
 Summarizes the audio and visual frames inside each token's time interval so that every modality has
-one vector per token (E1), and standardizes features with training data only.
+one vector per token (E1), and at the mean time, standardizes features with training data only.
 
-`profile_representation.py` : corresponding to Technical Appendix A1.3 A label-free representation
-for profiling (illustrative code). Builds the four summary blocks of a clip (language, acoustic,
-visual, cross-modal coordination), balances the blocks, and projects them on the leading principal
-components (E2). No function takes a label or a rating.
+profile_representation.py : corresponding to Technical Appendix A1.3 (illustrative code). Builds the four summary blocks of a clip (text, image, audio , cross-modal coordination), balances the blocks, and projects them on the leading principal
+components (E2). 
 
 ## Substrate features (Table A1.1)
 
@@ -26,8 +22,3 @@ components (E2). No function takes a label or a rating.
 | Audio | COVAREP | 74 voice-quality and spectral features, including F0 and voicing | 10 ms frames |
 | Visual | OpenFace 3.0 | action-unit intensities and gaze yaw and pitch | per video frame |
 
-## Status
-
-The pilot features were extracted before the tool versions were pinned; a re-run with pinned
-versions is planned. The extraction scripts are not part of this release. The two Python files need
-numpy only, and have been checked on simulated data only.
