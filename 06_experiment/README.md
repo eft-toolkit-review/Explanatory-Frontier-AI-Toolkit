@@ -8,7 +8,7 @@ test is registered before any stimulus is shown to a participant.
 
 randomize.py : corresponding to Technical Appendix A5.1 (illustrative code). 
 
-primary_model.R: corresponding to Technical Appendix A5.3  (illustrative code). For better understanding statistically, coded in R.
+primary_model.py: corresponding to Technical Appendix A5.3  (illustrative code). 
 
 power.py : corresponding to Technical Appendix A5.4 Precision and power (illustrative code).
 
