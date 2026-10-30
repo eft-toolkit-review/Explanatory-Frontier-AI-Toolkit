@@ -4,8 +4,6 @@ Builds one summary vector per clip from four blocks, balances the blocks, and pr
 leading principal components (E2).  Nothing here takes a label or a rating as input: the
 representation is built without access to the focal construct.
 
-Open choices that the appendix leaves to the registry: the maximum lag for the coordination
-block, and whether features are standardized before blocks are balanced.
 """
 import numpy as np
 
