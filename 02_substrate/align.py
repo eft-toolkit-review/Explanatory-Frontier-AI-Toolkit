@@ -1,4 +1,5 @@
 """A1.2 Alignment and standardization (illustrative). """
+
 import numpy as np
 
 
