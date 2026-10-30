@@ -63,12 +63,18 @@ Step 5: Diagnose Where the Construct's Explanatory Reach Ends
 
 
 ## 3. Implementation status
-01_protocol:
 
-02_substrate:
+Each folder follows the Technical Appendix. The labels are those in the table above.
 
-
-03_measure: GMFN pilot code and prototype
+| Folder | Appendix | Architecture step |
+|---|---|---|
+| `01_ingest` | A1.1 | Step 1 |
+| `02_substrate` | A1.2, A1.3 | Step 1 | 
+| `03_measure` | A2.1 to A2.4 | Step 2a |
+| `04_profile` | A3 | Step 2b | 
+| `05_intervene` | A4 | Step 3 |
+| `06_experiment` | A5 | Step 4 | 
+| `07_reopen` | A6, A7.2 | Step 5 | 
 
 
 
