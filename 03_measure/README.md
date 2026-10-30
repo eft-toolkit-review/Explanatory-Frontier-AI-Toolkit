@@ -12,7 +12,7 @@ splits.py : corresponding to Technical Appendix A2.2 Splits (illustrative code) 
 
 gmfn_pilot_code ：contains A2.3 model, A2.4 benchmark models(Pilot pipeline code). It is the GMFN code used in the pilot, together with the benchmark models it was compared with (early-fusion LSTM, TFN, LMF, MFN). It evaluates trained models on a feature file. See the README inside for the list of models and the pilot results. 
 
-gate.py/：corresponding to Technical Appendix A2.4 Validity gate (illustrative code). an illustrative decision rule as an example.
+gate.py：corresponding to Technical Appendix A2.4 Validity gate (illustrative code). an illustrative decision rule as an example.
 
 ## Installation
 Before running the scripts, ensure you have the following dependencies installed:
